@@ -3,6 +3,10 @@
 /*-------------------------------------
 Layout
 -------------------------------------*/
+/*@-ms-viewport{
+  width: device-width;
+}*/
+
 body {
     background-color: white;
 }
@@ -16,6 +20,11 @@ footer {
 
 footer .row {
     padding-top: 15px;
+}
+
+.alert {
+    margin-top: 20px;
+    display: none;
 }
 
 footer img {
@@ -175,6 +184,11 @@ Media queries
 /*-------------------------------------
 Features
 -------------------------------------*/
+#featuresHeading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
 
 #features {
     text-align: center;
